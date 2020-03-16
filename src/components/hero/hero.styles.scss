@@ -17,12 +17,14 @@
     .left {
       position: relative;
 
-      .phone a {
-        line-height: 36px;
-        font-weight: 500;
-        color: #666;
-        text-decoration: none;
-        z-index: 2;
+      .phone {
+        a {
+          line-height: 36px;
+          font-weight: 500;
+          color: #666;
+          text-decoration: none;
+          z-index: 2;
+        }
       }
 
       .title {
@@ -191,6 +193,12 @@
     padding: 30px 80px 0;
     .wrapper {
       .left {
+        .phone {
+          a {
+            font-weight: 400;
+            font-size: 0.8rem;
+          }
+        }
         .title {
           h1 {
             font-size: 50px;
@@ -204,6 +212,7 @@
             line-height: 27px;
           }
         }
+
         .hero-btn {
           padding-top: 50px;
 
