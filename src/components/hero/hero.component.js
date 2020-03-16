@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="phone">
             <a href="mailto:hello@motawy.me">hello@motawy.me</a>
           </div>
-          <div className="title">
+          <div className="hero-title">
             <h1>
               M<span>i</span>do
               <br />

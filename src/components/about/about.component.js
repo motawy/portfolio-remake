@@ -1,15 +1,19 @@
 import React from 'react';
 import AboutPersonal from './about-personal/about-personal.component';
 import AboutCV from './about-cv/about-cv.component';
-import './about.styles.scss';
 import AboutText from './about-text/about-text.component';
-import AboutTitle from './about-title/about-title.component';
+import TitleSection from '../title-section/title-section.component';
+import './about.styles.scss';
 
 const About = () => {
   return (
     <section className="about-section" id="about">
       <div className="about-wrapper">
-        <AboutTitle />
+        <TitleSection
+          firstPart="About"
+          secondPart="me"
+          description="Full-Stack Developer based in Australia"
+        />
         <div className="about-container">
           <div className="about-pic">
             <img src="https://via.placeholder.com/1080x1920" alt="about" />
