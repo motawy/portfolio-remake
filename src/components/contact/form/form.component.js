@@ -13,31 +13,42 @@ const ContactForm = () => {
         <span>Fill out this form we'll contact back shortly.</span>
       </div>
       <div className="form">
-        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <div className="form-name">
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Type your name"
-            />
+            <label htmlFor="name">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Type your name"
+              />
+            </label>
           </div>
 
           <div className="form-email">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Type your email"
-            />
+            <label htmlFor="email">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Type your email"
+              />
+            </label>
           </div>
 
           <div className="form-textarea">
-            <textarea
-              name="message"
-              id="text_comment"
-              placeholder="Type your messages"
-            />
+            <label htmlFor="message">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Type your messages"
+              />
+            </label>
           </div>
           <div data-netlify-recaptcha="true"></div>
           <div className="btn__send">
