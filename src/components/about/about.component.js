@@ -3,6 +3,7 @@ import AboutPersonal from './about-personal/about-personal.component';
 import AboutCV from './about-cv/about-cv.component';
 import AboutText from './about-text/about-text.component';
 import TitleSection from '../title-section/title-section.component';
+import about_image from '../../img/hero/about.jpg';
 import './about.styles.scss';
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
         />
         <div className="about-container">
           <div className="about-pic">
-            <img src="https://via.placeholder.com/1080x1920" alt="about" />
+            <img src={about_image} alt="about me" loading="lazy" />
           </div>
           <div className="about-info">
             <div className="about-name">

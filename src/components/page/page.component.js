@@ -4,6 +4,7 @@ import About from '../about/about.component';
 import Resume from '../resume/resume.component';
 import Services from '../services/services.component';
 import Portfolio from '../portfolio/portfolio.component';
+import Contact from '../contact/contact.component';
 import './page.styles.scss';
 
 const Page = () => {
@@ -14,6 +15,7 @@ const Page = () => {
       <Resume />
       <Services />
       <Portfolio />
+      <Contact />
     </div>
   );
 };
