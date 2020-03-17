@@ -13,7 +13,7 @@ const ContactForm = () => {
         <span>Fill out this form we'll contact back shortly.</span>
       </div>
       <div className="form">
-        <form name="mido-form" netlify="true">
+        <form name="mido-form" method="POST" data-netlify="true">
           <div className="form-name">
             <input
               type="text"
