@@ -8,7 +8,11 @@ const Resume = () => {
   return (
     <section className="resume" id="resume">
       <div className="wrapper">
-        <TitleSection firstPart="My" secondPart="Resume" description="Here's some of my most recent work." />
+        <TitleSection
+          firstPart="My"
+          secondPart="Resume"
+          description="Here's some of my most recent work."
+        />
         <div className="main">
           <Education />
           <Work />
