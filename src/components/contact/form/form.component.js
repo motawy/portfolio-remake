@@ -13,7 +13,7 @@ const ContactForm = () => {
         <span>Fill out this form we'll contact back shortly.</span>
       </div>
       <div className="form">
-        <form name="mido-form" method="POST" data-netlify="true">
+        <form name="mido-form" method="POST" data-netlify-recaptcha="true" data-netlify="true">
           <div className="form-name">
             <input
               type="text"
@@ -39,7 +39,7 @@ const ContactForm = () => {
               placeholder="Type your messages"
             />
           </div>
-
+          <div data-netlify-recaptcha="true"></div>
           <div className="btn__send">
             <button type="submit" id="btn_submit" name="mido-submit">
               <FontAwesomeIcon icon={faPlus} size="lg" />
