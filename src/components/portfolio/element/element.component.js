@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/pro-solid-svg-icons/faPlus';
+import { faLink } from '@fortawesome/pro-solid-svg-icons/faLink';
 import './element.styles.scss';
 
 const Element = ({ link, imageWebp, image, title }) => {
@@ -10,7 +10,7 @@ const Element = ({ link, imageWebp, image, title }) => {
         <a href={link} className="onHover">
           <div className="img">
             <picture>
-              <source srcset={imageWebp} type="image/webp" />
+              <source srcSet={imageWebp} type="image/webp" />
               <img src={image} alt="work" />
             </picture>
           </div>
@@ -20,7 +20,7 @@ const Element = ({ link, imageWebp, image, title }) => {
                 <span>{title}</span>
               </div>
               <div className="details-btn">
-                <FontAwesomeIcon icon={faPlus} color="#f2d367" />
+                <FontAwesomeIcon icon={faLink} color="#f2d367" />
               </div>
             </div>
           </div>

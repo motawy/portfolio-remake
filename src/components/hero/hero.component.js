@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <div className="right">
           <picture>
-            <source srcset={avatarWebp} type="image/webp" />
+            <source srcSet={avatarWebp} type="image/webp" />
             <img src={avatar} alt="avatar of mido" />
           </picture>
         </div>

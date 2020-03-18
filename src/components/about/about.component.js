@@ -19,7 +19,7 @@ const About = () => {
         <div className="about-container">
           <div className="about-pic">
             <picture>
-              <source srcset={about_imageWebp} type="image/webp" />
+              <source srcSet={about_imageWebp} type="image/webp" />
               <img src={about_image} alt="about me" />
             </picture>
           </div>
