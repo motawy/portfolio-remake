@@ -32,6 +32,36 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <form style="display: none;"
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
+          <label htmlFor="name">
+            <input
+              type="text"
+              name="name"
+              placeholder="Type your name"
+            />
+          </label>
+
+          <label htmlFor="email">
+            <input
+              type="email"
+              name="email"
+              placeholder="Type your email"
+            />
+          </label>
+
+          <label htmlFor="message">
+            <textarea
+              name="message"
+              placeholder="Type your messages"
+            ></textarea>
+          </label>
+          <div data-netlify-recaptcha="true"></div>
+        </form>
     <div id="root"></div>
     <!--
       This HTML file is a template.

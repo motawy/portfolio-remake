@@ -13,12 +13,8 @@ const ContactForm = () => {
         <span>Fill out this form we'll contact back shortly.</span>
       </div>
       <div className="form">
-        <form
-          name="contact"
-          method="POST"
-          data-netlify-recaptcha="true"
-          data-netlify="true"
-        >
+        <form name="contact" method="POST">
+          <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name">
             <input
               type="text"
@@ -42,9 +38,8 @@ const ContactForm = () => {
               name="message"
               id="message"
               placeholder="Type your messages"
-            />
+            ></textarea>
           </label>
-          <div data-netlify-recaptcha="true"></div>
           <div className="btn__send">
             <button type="submit" id="btn_submit">
               <FontAwesomeIcon icon={faPlus} size="lg" />
