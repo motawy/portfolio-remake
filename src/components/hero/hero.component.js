@@ -4,6 +4,7 @@ import { faClock } from '@fortawesome/pro-light-svg-icons/faClock';
 import { faPlus } from '@fortawesome/pro-light-svg-icons/faPlus';
 import mouse from '../../img/icons/mouse.svg';
 import avatar from '../../img/hero/avatar.png';
+import avatarWebp from '../../img/hero/avatar.webp';
 import './hero.styles.scss';
 
 const Hero = () => {
@@ -48,7 +49,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="right">
-          <img src={avatar} alt="avatar of mido" />
+          <picture>
+            <source srcset={avatarWebp} type="image/webp" />
+            <img src={avatar} alt="avatar of mido" />
+          </picture>
         </div>
       </div>
     </section>

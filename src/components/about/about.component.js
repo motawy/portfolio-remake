@@ -4,6 +4,7 @@ import AboutCV from './about-cv/about-cv.component';
 import AboutText from './about-text/about-text.component';
 import TitleSection from '../title-section/title-section.component';
 import about_image from '../../img/hero/about.jpg';
+import about_imageWebp from '../../img/hero/about.webp';
 import './about.styles.scss';
 
 const About = () => {
@@ -17,7 +18,10 @@ const About = () => {
         />
         <div className="about-container">
           <div className="about-pic">
-            <img src={about_image} alt="about me" />
+            <picture>
+              <source srcset={about_imageWebp} type="image/webp" />
+              <img src={about_image} alt="about me" />
+            </picture>
           </div>
           <div className="about-info">
             <div className="about-name">

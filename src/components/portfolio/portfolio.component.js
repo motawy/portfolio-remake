@@ -1,10 +1,14 @@
 import React from 'react';
 import TitleSection from '../title-section/title-section.component';
 import Element from './element/element.component';
-import crwn from '../../img/portfolio/crwn.png';
-import giga from '../../img/portfolio/giga.png';
-import gmt from '../../img/portfolio/gmt.png';
-import sb from '../../img/portfolio/smartbrain.png';
+import crwnWebp from '../../img/portfolio/crwn.webp';
+import crwnImg from '../../img/portfolio/crwn.png';
+import gigaWebp from '../../img/portfolio/giga.webp';
+import gigaImg from '../../img/portfolio/giga.png';
+import gmtWebp from '../../img/portfolio/gmt.webp';
+import gmtImg from '../../img/portfolio/gmt.png';
+import sbWebp from '../../img/portfolio/smartbrain.webp';
+import sbImg from '../../img/portfolio/smartbrain.png';
 import './portfolio.styles.scss';
 
 const Portfolio = () => {
@@ -20,22 +24,26 @@ const Portfolio = () => {
           <div className="portfolio">
             <Element
               link="https://github.com/motawy/crwn-clothing"
-              image={crwn}
+              imageWebp={crwnWebp}
+              image={crwnImg}
               title="CRWN CLOTHING"
             />
             <Element
               link="https://github.com/motawy/giga-ball"
-              image={giga}
+              imageWebp={gigaWebp}
+              image={gigaImg}
               title="GIGA BALL"
             />
             <Element
               link="https://github.com/motawy/get-me-there"
-              image={gmt}
+              imageWebp={gmtWebp}
+              image={gmtImg}
               title="GET ME THERE"
             />
             <Element
               link="https://github.com/motawy/smart-brain"
-              image={sb}
+              imageWebp={sbWebp}
+              image={sbImg}
               title="SMART BRAIN"
             />
           </div>
