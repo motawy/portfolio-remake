@@ -19,37 +19,31 @@ const ContactForm = () => {
           data-netlify-recaptcha="true"
           data-netlify="true"
         >
-          <div className="form-name">
-            <label htmlFor="name">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Type your name"
-              />
-            </label>
-          </div>
+          <label htmlFor="name">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Type your name"
+            />
+          </label>
 
-          <div className="form-email">
-            <label htmlFor="email">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Type your email"
-              />
-            </label>
-          </div>
+          <label htmlFor="email">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Type your email"
+            />
+          </label>
 
-          <div className="form-textarea">
-            <label htmlFor="message">
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Type your messages"
-              />
-            </label>
-          </div>
+          <label htmlFor="message">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Type your messages"
+            />
+          </label>
           <div data-netlify-recaptcha="true"></div>
           <div className="btn__send">
             <button type="submit" id="btn_submit">
