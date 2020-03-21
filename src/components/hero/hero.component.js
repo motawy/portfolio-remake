@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/pro-light-svg-icons/faClock';
-import { faPlus } from '@fortawesome/pro-light-svg-icons/faPlus';
+import { faClock } from '@fortawesome/free-solid-svg-icons/faClock';
+import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
 import mouse from '../../img/icons/mouse.svg';
 import avatar from '../../img/hero/avatar.png';
 import avatarWebp from '../../img/hero/avatar.webp';
@@ -34,7 +34,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero-btn">
-            <a href="#contact" id="contact">
+            <a href="#contact" id="contact_btn">
               <FontAwesomeIcon icon={faPlus} /> Contact me
             </a>
             <span>

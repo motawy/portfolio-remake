@@ -5,7 +5,6 @@ import * as $ from 'jquery';
 import './loader';
 
 function App() {
-
   $(document).ready(function() {
     $('a[href*="#"]').on('click', function(e) {
       var anchor = $(this);

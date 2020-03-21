@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink } from '@fortawesome/pro-solid-svg-icons/faLink';
+import { faLink } from '@fortawesome/free-solid-svg-icons/faLink';
 import './element.styles.scss';
 
 const Element = ({ link, imageWebp, image, title }) => {
